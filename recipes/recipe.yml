@@ -21,11 +21,12 @@ modules:
     repos:
       cleanup: true
       copr:
-        - atim/starship
-        - wezfurlong/wezterm-nightly
+        name: wezfurlong/wezterm-nightly
+        chroot: fedora-43-x86_64
         - aleasto/waydroid
     install:
       packages:
+        - btop
         - helix
         - fish
         - wezterm
