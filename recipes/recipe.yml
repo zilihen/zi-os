@@ -21,8 +21,8 @@ modules:
     repos:
       cleanup: true
       copr:
-        name: wezfurlong/wezterm-nightly
-        chroot: fedora-43-x86_64
+        - name: wezfurlong/wezterm-nightly
+          chroot: fedora-43-x86_64
         - aleasto/waydroid
     install:
       packages:
