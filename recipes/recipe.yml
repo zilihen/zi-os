@@ -34,7 +34,7 @@ modules:
         - starship
         - waydroid
         - git
-        - @cosmic-desktop-environment
+        - \@cosmic-desktop-environment
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
