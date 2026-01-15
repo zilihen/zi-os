@@ -6,8 +6,8 @@ name: zi-os
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/blue-build/base-images/fedora-base-nvidia
-# base-image: ghcr.io/blue-build/base-images/fedora-base # note to self: if not using nvidia uncomment this and comment out the top
+base-image: ghcr.io/blue-build/base-images/fedora-cosmic-nvidia
+# base-image: ghcr.io/blue-build/base-images/fedora-cosmic # note to self: if not using nvidia, uncomment this and comment out the top
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -34,7 +34,6 @@ modules:
         - starship
         - waydroid
         - git
-        - \@cosmic-desktop-environment
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
