@@ -6,6 +6,31 @@ After setup, it is recommended you update this README to describe your custom im
 
 ## Installation
 
+Normally, I just build the iso image and install from there; this may require editing to `files/etc/skel` since it include my own 
+personal base configuration which would be added to all users but that is if I am doing a fresh install. Otherwise, install using instruction below, if already on a Fedora Atomic system. 
+
+### Using bootc
+
+To rebase an existing atomic Fedora installation to the latest build:
+
+- First rebase to the unsigned image, to get the proper signing keys and policies installed:
+  ```
+  bootc switch ghcr.io/zilihen/zi-os:latest
+  ```
+- Reboot to complete the rebase:
+  ```
+  systemctl reboot
+  ```
+- Then rebase to the signed image, like so:
+  ```
+  bootc switch --enforce-container-sigpolicy ghcr.io/zilihen/zi-os:latest
+  ```
+- Reboot again to complete the installation
+  ```
+  systemctl reboot
+  ```
+
+### Using rpm-ostree
 > [!WARNING]  
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
@@ -29,6 +54,9 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+
+> [!NOTE]
+> I do not know what happen if you mix the two together. So, just to be safe once you stick with one, stay on that one.
 
 ## ISO
 
