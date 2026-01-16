@@ -6,8 +6,7 @@ After setup, it is recommended you update this README to describe your custom im
 
 ## Installation
 
-Normally, I just build the iso image and install from there; this may require editing to `files/etc/skel` since it include my own 
-personal base configuration which would be added to all users but that is if I am doing a fresh install. Otherwise, install using instruction below, if already on a Fedora Atomic system. 
+On a fresh install, I just build the iso image and install from there; this may require editing to `files/etc/skel` since it include my own personal base configuration which would be added to all users but that is only if I am doing a fresh install. Otherwise, install using instruction below, if already on a Fedora Atomic system. 
 
 ### Using bootc
 
