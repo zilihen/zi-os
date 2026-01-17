@@ -4,127 +4,53 @@
             Super,
             Ctrl,
         ],
-        key: "7",
-    ): MoveToWorkspace(7),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Return",
-    ): System(Terminal),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "2",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "1",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "1",
-    ): MoveToWorkspace(1),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
         key: "3",
+    ): MoveToWorkspace(3),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "7",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Tab",
+    ): NextWorkspace,
     (
         modifiers: [
             Super,
             Ctrl,
         ],
-        key: "l",
+        key: "4",
+    ): MoveToWorkspace(4),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "5",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "0",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "y",
     ): Disable,
     (
         modifiers: [
             Super,
         ],
         key: "g",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Right",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "9",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "tab",
-    ): NextWorkspace,
-    (
-        modifiers: [
-            Alt,
-        ],
-        key: "F4",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Up",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "4",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "a",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "space",
-    ): System(Launcher),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "3",
-    ): MoveToWorkspace(3),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Down",
     ): Disable,
     (
         modifiers: [
@@ -138,34 +64,73 @@
             Super,
             Ctrl,
         ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "5",
-    ): MoveToWorkspace(5),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "0",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
         key: "6",
     ): MoveToWorkspace(6),
     (
         modifiers: [
             Super,
+            Shift,
         ],
-        key: "y",
+        key: "2",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "F11",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "space",
+    ): ToggleWindowFloating,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "f",
+    ): Fullscreen,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "9",
+    ): Disable,
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "space",
+    ): System(InputSourceSwitch),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "7",
+    ): MoveToWorkspace(7),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "s",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Up",
     ): Disable,
     (
         modifiers: [
@@ -176,22 +141,9 @@
     (
         modifiers: [
             Super,
+            Ctrl,
         ],
-        key: "slash",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "6",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "7",
+        key: "Down",
     ): Disable,
     (
         modifiers: [
@@ -199,32 +151,6 @@
             Shift,
         ],
         key: "8",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "0",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "k",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "8",
-    ): MoveToWorkspace(8),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "F11",
     ): Disable,
     (
         modifiers: [
@@ -238,40 +164,7 @@
             Super,
             Ctrl,
         ],
-        key: "2",
-    ): MoveToWorkspace(2),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "5",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "space",
-    ): ToggleWindowFloating,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "t",
-    ): ToggleTiling,
-    (
-        modifiers: [
-            Ctrl,
-        ],
-        key: "space",
-    ): System(InputSourceSwitch),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "s",
+        key: "l",
     ): Disable,
     (
         modifiers: [
@@ -283,19 +176,103 @@
     (
         modifiers: [
             Super,
+            Ctrl,
         ],
-    ): System(AppLibrary),
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "t",
+    ): ToggleTiling,
     (
         modifiers: [
             Super,
             Ctrl,
         ],
-        key: "4",
-    ): MoveToWorkspace(4),
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "1",
+    ): MoveToWorkspace(1),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "8",
+    ): MoveToWorkspace(8),
     (
         modifiers: [
             Super,
         ],
-        key: "f",
-    ): Fullscreen,
+        key: "Return",
+    ): System(Terminal),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "6",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "5",
+    ): MoveToWorkspace(5),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "F4",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "3",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "4",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "0",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "1",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "2",
+    ): MoveToWorkspace(2),
 }
