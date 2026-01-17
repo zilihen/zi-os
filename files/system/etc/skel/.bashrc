@@ -24,11 +24,13 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# Use for toolbox container to exec fish on entering the toolbox
+# Mainly use for toolbox container to exec fish on entering the toolbox
+# but it is also fine to use this for normal setup
 # exec fish replaces the current bash process 
 # The conditional check if fish exist and is interactive before entering fish,
 # this prevent certain error from happening such as unable to open up the terminal or log in
 # because fish does not exist, etc.
+# If fish does not exist, enter bash as normal
 if [[ $- == *i* ]] && command -v fish >/dev/null 2>&1 && [ -z "$FISH_VERSION" ]; then
     exec fish
 fi
