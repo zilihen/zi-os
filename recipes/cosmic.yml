@@ -34,6 +34,11 @@ modules:
         - starship
         - waydroid
         - git
+        - lxappearance 
+        - breeze-cursor-theme.noarch
+        - breeze-gtk.noarch
+        - breeze-gtk-common.noarch
+        - breeze-icon-theme-fedora.noarch
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
